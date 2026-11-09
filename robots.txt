@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khmzamantonmoy-lgtm.github.io/Khandakar_Muuttakin_Uzzaman_-Tonmoy-_V.2/sitemap.xml
