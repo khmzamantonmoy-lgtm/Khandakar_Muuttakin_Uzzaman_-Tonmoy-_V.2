@@ -8,7 +8,7 @@ A modern, responsive portfolio for Khandakar Muttakin Uzzaman Tonmoy: a technica
 
 FRIDAY is the personal system that best represents Tonmoy's technical range. It brings together production control, date-scoped daily contracts, content retrieval, pagination, proxy isolation, telemetry semantics, and evidence-driven operational decision-making.
 
-The site treats personal systems work as primary proof and professional engagements as context.
+The site treats personal systems work as primary proof and professional engagements as context. It also makes the evidence model explicit: ownership, constraints, decisions, and demonstrated capability.
 
 ## Positioning
 
@@ -30,6 +30,7 @@ The site presents Tonmoy's work across:
 - Keyboard-visible focus states and semantic landmarks
 - Case-study domain filters
 - Personal systems section with FRIDAY Media OS as the flagship project
+- Evidence-led sections that distinguish what was built, solved, and delivered
 - Mailto contact form with no server-side storage
 - SEO metadata, Open Graph tags, JSON-LD Person schema, favicon, sitemap, and robots.txt
 - GitHub Pages-friendly static deployment with no build step
