@@ -52,3 +52,23 @@ The site uses the profile details available in the original portfolio. Education
 ## License
 
 Personal portfolio content. All rights reserved.
+
+
+## Evidence model
+
+The portfolio now frames technical work as **problem → solution → stack → stakeholder value**. This keeps the site legible to recruiters, clients, and non-technical decision-makers without hiding the engineering detail.
+
+## Technology and solution domains
+
+### Personal systems
+
+- FRIDAY Media OS: production control, date-scoped contracts, content retrieval, pagination, proxy isolation, telemetry semantics, and evidence-driven operational states.
+- FRIDAY stack: React, TypeScript, Vite, Python, SQLAlchemy, and PostgreSQL.
+
+### Professional solution domains
+
+- HSM and cryptographic security
+- Anti-DDoS and network-security evaluation
+- Data-center infrastructure, availability, and disaster recovery
+- Procurement, proposal, vendor, SLA/NDA, and executive-decision support
+- Governance, regulatory documentation, and stakeholder alignment
