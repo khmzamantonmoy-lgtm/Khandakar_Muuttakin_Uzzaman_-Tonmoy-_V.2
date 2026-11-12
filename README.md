@@ -72,3 +72,14 @@ The portfolio now frames technical work as **problem → solution → stack → 
 - Data-center infrastructure, availability, and disaster recovery
 - Procurement, proposal, vendor, SLA/NDA, and executive-decision support
 - Governance, regulatory documentation, and stakeholder alignment
+
+
+## Solution domains
+
+The portfolio communicates the solution families Tonmoy can work with across evaluation, architecture, integration, procurement, and delivery:
+
+- Security operations: EDR/XDR, DLP, SIEM, SOAR
+- Network security: Firewall, NDR, ZTNA, WAF, Anti-DDoS
+- Data and content: Database licenses, DAM, API
+- Cloud security: CSPM, CASB
+- AI and integration: MCP, RAG, LLM systems
