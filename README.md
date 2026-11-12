@@ -83,3 +83,8 @@ The portfolio communicates the solution families Tonmoy can work with across eva
 - Data and content: Database licenses, DAM, API
 - Cloud security: CSPM, CASB
 - AI and integration: MCP, RAG, LLM systems
+
+
+## 3D presentation
+
+The FRIDAY trophy hero is rendered with Three.js/WebGL using physically based materials, dynamic lighting, particles, responsive camera sizing, pointer parallax, and reduced-motion support. HTML remains responsible for semantic content and accessibility; the 3D scene is handled by the rendering framework.
