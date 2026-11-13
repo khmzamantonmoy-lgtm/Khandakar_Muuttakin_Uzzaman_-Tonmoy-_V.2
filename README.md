@@ -34,7 +34,8 @@ The site presents Tonmoy's work across:
 - Mailto contact form with no server-side storage
 - SEO metadata, Open Graph tags, JSON-LD Person schema, favicon, sitemap, and robots.txt
 - GitHub Pages deployment built from `dist/` by GitHub Actions
-- Detailed page architecture for Home, About, Experience, Enterprise Work, FRIDAY Media OS, Insights, and Contact
+- Detailed page architecture for Home, About, Experience, Resume, Enterprise Work, FRIDAY Media OS, Insights, and Contact
+- OEM/distributor-focused Senior Managerial resume profile with a dedicated resume-requirement contact address
 - Explicit solution-range mapping for EDR/XDR, Firewall, NDR, ZTNA, WAF, Anti-DDoS, DLP, SIEM, SOAR, CSPM, CASB, MCP, RAG, and LLMs
 
 ## Local preview
@@ -53,7 +54,7 @@ npm run build
 npm run preview
 ```
 
-The build emits eight HTML entry points and optimized assets into `dist/`. The initial page paints without waiting for WebGL; the trophy scene is loaded during idle time and has a CSS fallback for devices without WebGL.
+The build emits nine HTML entry points and optimized assets into `dist/`. The initial page paints without waiting for WebGL; the trophy scene is loaded during idle time and has a CSS fallback for devices without WebGL.
 
 ## Content notes
 
