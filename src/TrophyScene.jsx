@@ -25,7 +25,7 @@ function TrophyModel() {
       <mesh position={[.78,.72,0]} rotation={[0,0,-Math.PI/2]}><torusGeometry args={[.66,.09,18,48,Math.PI*1.4]}/><meshPhysicalMaterial {...blue}/></mesh>
     </Float>
     <mesh position={[0,-.62,0]}><cylinderGeometry args={[.12,.2,.7,32]}/><meshPhysicalMaterial color="#8b5cf6" metalness=".5" roughness=".2"/></mesh>
-    <mesh position={[0,-1.03,0]}><cylinderGeometry args={[.8,.92,.34,6]}/><meshStandardMaterial color="#0b1730" metalness=".85 roughness=".25"/></mesh>
+    <mesh position={[0,-1.03,0]}><cylinderGeometry args={[.8,.92,.34,6]}/><meshStandardMaterial color="#0b1730" metalness=".85" roughness=".25"/></mesh>
     <mesh position={[0,-.84,0]}><cylinderGeometry args={[.72,.72,.04,6]}/><meshPhysicalMaterial {...gold}/></mesh>
     <mesh position={[0,.56,.82]} rotation={[0,0,Math.PI/4]}><octahedronGeometry args={[.28,0]}/><meshPhysicalMaterial {...pink}/></mesh>
   </group>;
@@ -39,3 +39,4 @@ export default function TrophyScene(){
     <ContactShadows position={[0,-1.25,0]} opacity={.35} scale={3.5} blur={2.5}/>
   </Canvas>;
 }
+
