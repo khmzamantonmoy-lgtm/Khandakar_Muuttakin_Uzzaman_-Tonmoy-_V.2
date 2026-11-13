@@ -1,4 +1,5 @@
 (() => {
+  document.documentElement.classList.add('js');
   const root = document.documentElement;
   const themeToggle = document.querySelector('.theme-toggle');
   const savedTheme = localStorage.getItem('tonmoy-theme');
