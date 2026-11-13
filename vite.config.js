@@ -12,7 +12,11 @@ export default defineConfig({
       index: resolve(__dirname, 'index.html'),
       about: resolve(__dirname, 'about.html'),
       projects: resolve(__dirname, 'projects.html'),
-      resume: resolve(__dirname, 'resume.html')
+      resume: resolve(__dirname, 'resume.html'),
+      experience: resolve(__dirname, 'experience.html'),
+      friday: resolve(__dirname, 'friday.html'),
+      insights: resolve(__dirname, 'insights.html'),
+      contact: resolve(__dirname, 'contact.html')
     }}
   }
 });
