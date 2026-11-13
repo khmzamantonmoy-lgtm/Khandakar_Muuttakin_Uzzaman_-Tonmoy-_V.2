@@ -32,7 +32,7 @@ Purpose: Track what can be published, what requires evidence, and what must rema
 | CER-015 | Database licenses, DAM, API integration | Existing solution-domain list | SUPPORTED as solution familiarity | Projects or engagement artifacts | Avoid claiming ownership of vendor products |
 | CER-016 | CSPM and CASB | Existing solution-domain list | SUPPORTED as solution familiarity | Cloud environments and scope | Present as cloud-security solution areas |
 | CER-017 | MCP, RAG, and LLM systems | Existing solution-domain list | SUPPORTED as capability direction | Working demos, repositories, or diagrams | Label depth and status explicitly |
-| CER-018 | Bachelor of Business Administration, Management | Existing resume copy | PARTIALLY SUPPORTED | Institution, dates, certificate/transcript | Publish after institution and dates are confirmed |
+| CER-018 | Bachelor’s Degree (Honors), Major in Economics | User correction to existing resume copy | PARTIALLY SUPPORTED | Institution, dates, certificate/transcript | Publish after institution and dates are confirmed |
 | CER-019 | Professional certifications | None identified in current repository | NEEDS VERIFICATION | Exact certificate names, issuers, dates | Do not publish placeholders as credentials |
 | CER-020 | FRIDAY Media OS exists as an independent system | Existing portfolio and README | SUPPORTED as project narrative | Repository/demo/screenshots | Publish as personal project |
 | CER-021 | FRIDAY stack: React, TypeScript, Vite, Python, SQLAlchemy, PostgreSQL | Existing README | PARTIALLY SUPPORTED | Repository lockfile, source, architecture map | Publish as “documented stack” after repo confirmation |
@@ -47,7 +47,7 @@ Purpose: Track what can be published, what requires evidence, and what must rema
 To close the highest-impact gaps, collect:
 
 1. Exact job titles and employment dates for each employer.
-2. Institution and dates for the BBA.
+2. Institution and dates for the Bachelor’s Degree (Honors), Major in Economics.
 3. Certification names, issuing bodies, and dates.
 4. Three anonymized enterprise engagement summaries with personal role and deliverables.
 5. FRIDAY repository or approved screenshots.
