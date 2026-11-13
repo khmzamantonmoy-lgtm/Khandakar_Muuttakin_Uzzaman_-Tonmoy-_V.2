@@ -173,7 +173,7 @@ Multi-party proposals can fail when technical claims, requirements, pricing, con
 
 Draft:
 
-> Supported tender preparation, bid documentation, solution evaluation, vendor shortlisting, NDA/SLA review, and approval-readiness.
+> Supported tender preparation, bid documentation, solution evaluation, competition analysis, NDA/SLA review, and approval-readiness.
 
 Status: PARTIALLY SUPPORTED by current portfolio; confirm exact responsibilities.
 
