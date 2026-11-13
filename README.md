@@ -25,7 +25,7 @@ The site presents Tonmoy's work across:
 ## Included
 
 - Dark/light theme with persistent preference
-- CSS-built 3D security hero object
+- React + Vite application with a lazy-loaded React Three Fiber/WebGL trophy scene
 - Responsive mobile navigation
 - Keyboard-visible focus states and semantic landmarks
 - Case-study domain filters
@@ -33,17 +33,25 @@ The site presents Tonmoy's work across:
 - Evidence-led sections that distinguish what was built, solved, and delivered
 - Mailto contact form with no server-side storage
 - SEO metadata, Open Graph tags, JSON-LD Person schema, favicon, sitemap, and robots.txt
-- GitHub Pages-friendly static deployment with no build step
+- GitHub Pages deployment built from `dist/` by GitHub Actions
 
 ## Local preview
 
-Open `index.html` directly, or serve the folder with any static server:
+Install dependencies and start the Vite development server:
 
 ```bash
-python -m http.server 8000
+npm ci
+npm run dev
 ```
 
-Then visit http://localhost:8000.
+For a production build and local preview:
+
+```bash
+npm run build
+npm run preview
+```
+
+The build emits four HTML entry points and optimized assets into `dist/`. The initial page paints without waiting for WebGL; the trophy scene is loaded during idle time and has a CSS fallback for devices without WebGL.
 
 ## Content notes
 
@@ -87,4 +95,9 @@ The portfolio communicates the solution families Tonmoy can work with across eva
 
 ## 3D presentation
 
-The FRIDAY trophy hero is rendered with Three.js/WebGL using physically based materials, dynamic lighting, particles, responsive camera sizing, pointer parallax, and reduced-motion support. HTML remains responsible for semantic content and accessibility; the 3D scene is handled by the rendering framework.
+The trophy hero is rendered by React Three Fiber on top of Three.js using physically based materials, dynamic lighting, particles, and a responsive camera. React remains responsible for semantic content and accessibility while the rendering framework owns the 3D scene. The scene is code-split and deferred so the first contentful view is not blocked by WebGL startup.
+
+## Deployment
+
+GitHub Pages runs the workflow in `.github/workflows/pages.yml`, which installs from `package-lock.json`, runs `npm run build`, and publishes `dist/`. For the VPS, build the same way and configure Caddy to serve the generated `dist/` directory rather than the repository source files.
+
