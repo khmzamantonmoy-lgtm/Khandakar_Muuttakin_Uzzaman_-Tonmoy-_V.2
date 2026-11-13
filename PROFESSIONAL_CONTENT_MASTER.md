@@ -12,6 +12,10 @@ Working tagline:
 
 > Understanding business. Navigating technology. Building products.
 
+## Current career direction
+
+Tonmoy is currently open to a new Senior Managerial position within a technology OEM or distributor. The public positioning should emphasize leadership scope across enterprise solutions, cybersecurity, delivery, stakeholder management, and commercial responsibility. Personal earning objectives are private; the public narrative should communicate meaningful ownership, career progression, and commercial alignment without publishing salary expectations.
+
 Primary audiences:
 
 - CEOs, CTOs, CISOs, and enterprise business leaders.
