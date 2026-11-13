@@ -186,5 +186,6 @@
       .catch(() => {
         heroCanvas.setAttribute('data-fallback', 'true');
       });
+  }
 
 })();
